@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(72, 151, 146, 1);
+}
+navbg{
+   background-color: rgba(72, 151, 146, 1); 
+}
+#tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-right: 10%;
+}
+#home{
+    padding-left: 5%; padding-right: 5%;
+}
+#reviews{
+    padding-left: 5%; padding-right: 5%;
+}
+#about{
+    padding-left: 5%; padding-right: 5%;
+}
+#pricing{
+    padding-left: 5%; padding-right: 5%;
+}
+
+.button{
+    border: none;
+}
+.button-one{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 20px;
+    color: white;
+}
+.button-two{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: rgba(72, 151, 146, 1);
+}
+.passport{
+    width: 30%;
+    flex-direction: column;
+    border: solid 2px black;
+}
+.image{
+    padding-top: 7%;
+    width: 30%;
+    align-items: center;
+}
+#names{
+    width: 30%;
+
+}
+.name{
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
