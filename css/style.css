@@ -71,3 +71,10 @@ navbg{
     display: flex;
     flex-direction: row;
 }
+
+/* third */
+#details{
+    background-color: white;
+    width: 23%;
+    padding-left: 10%;
+}
