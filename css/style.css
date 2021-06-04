@@ -59,9 +59,13 @@ navbg{
     padding-top: 2%;
 }
 .text>p{
+    display: flex;
+    align-items: center; justify-content: center;
     text-align: center;
-    font-size: 200%;
+    padding: 10% 10% 10% 10%;
+    font-size: 250%;
     font-weight: bolder;
+    color: white;
 }
 .second{
     display: flex;
