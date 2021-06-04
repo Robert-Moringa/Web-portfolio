@@ -73,8 +73,19 @@ navbg{
 }
 
 /* third */
+
 #details{
     background-color: white;
     width: 23%;
     padding-left: 10%;
+    border: solid 2px black;
+}
+h2{
+    font-size: 250%;
+    font-weight: bolder;
+    color: white; 
+}
+h5{
+    font-size: 80%;
+    color: rgba(72, 151, 146, 1); 
 }
