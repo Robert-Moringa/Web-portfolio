@@ -91,3 +91,11 @@ h5{
     font-size: 80%;
     color: rgba(72, 151, 146, 1); 
 }
+#project{
+    display: flex;
+    flex-direction: column;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+}
