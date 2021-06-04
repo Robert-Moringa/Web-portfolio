@@ -73,11 +73,13 @@ navbg{
 }
 
 /* third */
-
+#third{
+    display: flex;
+    flex-direction: row;
+}
 #details{
     background-color: white;
     width: 23%;
-    padding-left: 10%;
     border: solid 2px black;
 }
 h2{
