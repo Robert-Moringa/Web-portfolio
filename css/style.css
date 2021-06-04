@@ -79,8 +79,8 @@ navbg{
 }
 #details{
     background-color: white;
-    width: 23%;
-    border: solid 2px black;
+    border-radius: 15px;
+    padding-left: 5%; padding-right: 5%; padding-top: 3%; padding-bottom: 3%;
 }
 h2{
     font-size: 250%;
@@ -98,4 +98,14 @@ h5{
 #projects{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+#fav-band, #anitas, #kreative{
+    background-color: white;
+    width: 23%;
+    border-radius: 20px;
+    padding-left: 5%; padding-right: 5%; padding-top: 3%; padding-bottom: 3%;
+}
+a{
+    color: rgba(72, 151, 146, 1);
 }
