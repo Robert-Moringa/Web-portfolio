@@ -8,7 +8,7 @@ navbg{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     padding-right: 10%;
 }
 #home{
@@ -23,7 +23,9 @@ navbg{
 #pricing{
     padding-left: 5%; padding-right: 5%;
 }
-
+#sign{
+    margin-right: 10%;
+}
 .button{
     border: none;
 }
@@ -31,10 +33,10 @@ navbg{
     border: none;
     background-color: rgba(255, 255, 255, 0.33);
     border-radius: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 .button-two{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     border: none;
     border-radius: 20px;
     color: rgba(72, 151, 146, 1);
@@ -42,21 +44,28 @@ navbg{
 .passport{
     width: 30%;
     flex-direction: column;
-    border: solid 2px black;
+    /* border: solid 2px black; */
+    margin-left: 7%%;
+    
 }
 .image{
     padding-top: 7%;
-    width: 30%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 #names{
-    width: 30%;
-
+    
 }
 .name{
-    color: white;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
     padding-top: 2%;
+    font-weight: 500px;
+    font-style: italic;
+}
+.name:first-child{
+    margin-bottom: 0%;
 }
 .text>p{
     display: flex;
@@ -65,7 +74,7 @@ navbg{
     padding: 10% 10% 10% 10%;
     font-size: 250%;
     font-weight: bolder;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 .second{
     display: flex;
@@ -78,34 +87,47 @@ navbg{
     flex-direction: row;
 }
 #details{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     padding-left: 5%; padding-right: 5%; padding-top: 3%; padding-bottom: 3%;
 }
 h2{
     font-size: 250%;
     font-weight: bolder;
-    color: white; 
+    color: rgba(255, 255, 255, 1); 
+}
+h3{
+    color: rgba(72, 151, 146, 1)
 }
 h5{
     font-size: 80%;
-    color: rgba(72, 151, 146, 1); 
+    color: rgba(72, 151, 146, 1);
+    font-style: bold;
 }
 #project{
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
 }
 #projects{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 255, 255, 1);
 }
 #fav-band, #anitas, #kreative{
-    background-color: white;
-    width: 23%;
+    background-color: rgba(255, 255, 255, 1);
+    width: 31%;
     border-radius: 20px;
-    padding-left: 5%; padding-right: 5%; padding-top: 3%; padding-bottom: 3%;
+    padding-left: 3%; padding-right: 3%; padding-top: 3%; padding-bottom: 3%;
+    margin-top: 2%; margin-bottom: 2%;
+    font-size: 80%;
 }
 a{
     color: rgba(72, 151, 146, 1);
+}
+@media only screen and (max-width: 768px) {
+    font-size: 50%;
+    
+
 }
