@@ -1,9 +1,6 @@
 body{
     background-color: rgba(72, 151, 146, 1);
 }
-navbg{
-   background-color: rgba(72, 151, 146, 1); 
-}
 #tabs{
     display: flex;
     flex-direction: row;
@@ -146,7 +143,6 @@ a{
     color: rgba(72, 151, 146, 1);
 }
 @media only screen and (max-width: 768px) {
+    #projects{display: block;}
     font-size: 50%;
-
-
 }
