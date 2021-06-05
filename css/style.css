@@ -144,5 +144,5 @@ a{
 }
 @media only screen and (max-width: 768px) {
     #projects{display: block;}
-    font-size: 50%;
+    body{font-size: 50%; display: block;}
 }
