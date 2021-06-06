@@ -156,4 +156,5 @@ a{
 @media only screen and (max-width: 320px){
     .navbar{display: block; }
     .navbar>img{display: flex; width: 40%; justify-content: center;}
+    #tabs{margin-left: 10%;}
 }
